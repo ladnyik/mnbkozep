@@ -33,7 +33,8 @@ public class MNBKozep {
 		server.setExecutor(null); // creates a default executor
 		server.start();
 	}
-
+/*
+*/
 	private static String getMNBKozep() throws MalformedURLException, IOException {
 
 		String url = "http://www.mnb.hu/arfolyamok.asmx?singleWSDL";
