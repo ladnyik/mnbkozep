@@ -5,6 +5,8 @@
 Egy http POST request ide : http://www.mnb.hu/arfolyamok.asmx?singleWSDL<br>
 curl -v http://www.mnb.hu/arfolyamok.asmx?singleWSDL -H "Content-Type: text/xml; charset=utf-8" -d @getinforequest.xml>getinforesult.xml
 
+https://github.com/ladnyik/mnbkozep/blob/main/MNBKozep.java
+
 A post data része:<br>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.mnb.hu/webservices/">
   <soapenv:Header/>
