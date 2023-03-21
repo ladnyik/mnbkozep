@@ -2,10 +2,10 @@
 
 <h3>AZ MNB biztosít egy szolgáltatást a közép arfolyamok lekérdezésére</h3>
 
-Egy http POST request ide : http://www.mnb.hu/arfolyamok.asmx?singleWSDL
+Egy http POST request ide : http://www.mnb.hu/arfolyamok.asmx?singleWSDL<br>
 curl -v http://www.mnb.hu/arfolyamok.asmx?singleWSDL -H "Content-Type: text/xml; charset=utf-8" -d @getinforequest.xml>getinforesult.xml
 
-A post data része getinforequest.xml:
+A post data része:<br>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.mnb.hu/webservices/">
   <soapenv:Header/>
   <soapenv:Body>
