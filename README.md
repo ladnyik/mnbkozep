@@ -5,6 +5,7 @@
 Egy http POST request ide : http://www.mnb.hu/arfolyamok.asmx?singleWSDL<br>
 curl -v http://www.mnb.hu/arfolyamok.asmx?singleWSDL -H "Content-Type: text/xml; charset=utf-8" -d @getinforequest.xml>getinforesult.xml
 
+Ez kis pelda mutatná mire lenne szükségünk:
 https://github.com/ladnyik/mnbkozep/blob/main/MNBKozep.java
 
 A post data része:<br>
